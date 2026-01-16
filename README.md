@@ -86,14 +86,14 @@ HTTP status codes
 
 ## Running the Project
 ### Backend
-`cd backend`
-`npm install`
-`npm start`
+- `cd backend`
+- `npm install`
+- `npm start`
 
 ### Frontend
-`cd frontend`
-`npm install`
-`npm start`
+- `cd frontend`
+- `npm install`
+- `npm start`
 
 ## Database Setup (SQL Server)
 
