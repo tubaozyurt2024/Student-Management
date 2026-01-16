@@ -40,7 +40,7 @@ backend/
     ├─ swagger/         # API documentation
     ├─ app.js           # Express app setup
     └─ server.js        # Server bootstrap
-
+```
 # API Documentation (Swagger)
 
 Swagger UI is enabled to explore and test all endpoints.
