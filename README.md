@@ -41,6 +41,26 @@ backend/
     ├─ app.js           # Express app setup
     └─ server.js        # Server bootstrap
 ```
+
+## Frontend 
+```text
+frontend/
+ └─ src/
+    ├─ api/
+    │   └─ students.js        # Axios-based API calls
+    │
+    ├─ components/
+    │   ├─ Alert.jsx          # User-friendly error messages
+    │   ├─ StudentForm.jsx    # Create / Update student form
+    │   └─ StudentTable.jsx   # Students list and actions
+    │
+    ├─ hooks/
+    │   └─ useStudents.js     # State management and CRUD logic
+    │
+    ├─ App.js                 # Application composition
+    └─ index.js               # React entry point
+```
+
 # API Documentation (Swagger)
 
 Swagger UI is enabled to explore and test all endpoints.
