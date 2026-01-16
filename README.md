@@ -110,26 +110,26 @@ This project uses **Microsoft SQL Server** as the relational database.
 ---
 
 ### Step 1: Create Database
-CREATE DATABASE StudentDb;
+```CREATE DATABASE StudentDb;```
 
 
 ### Step 2: Use Database
-USE StudentDb;
+```USE StudentDb;```
 
 ### Step 3: Create Students Table
-CREATE TABLE dbo.Students (
+``CREATE TABLE dbo.Students (
     StudentId INT IDENTITY(1,1) PRIMARY KEY,
     Name NVARCHAR(100) NOT NULL,
     Email NVARCHAR(100) NOT NULL,
     Phone NVARCHAR(20) NULL,
     Department NVARCHAR(50) NULL,
     CreatedDate DATETIME NOT NULL DEFAULT GETDATE()
-);
+); ``
 
 
 ### Step 4: Add Unique Constraint
-CREATE UNIQUE INDEX UX_Students_Email
-ON dbo.Students (Email);
+``CREATE UNIQUE INDEX UX_Students_Email
+ON dbo.Students (Email);``
 
 
 
